@@ -1,5 +1,7 @@
 import { AbstractIdentityStore, SerializedIdentity } from 'daf-core'
 const fs = require('fs')
+import Debug from 'debug'
+const debug = Debug('daf:fs:identity-store')
 
 interface FileContents {
   [did: string]: SerializedIdentity
@@ -20,12 +22,14 @@ export class IdentityStore extends AbstractIdentityStore {
     const fileContents = this.readFromFile()
     if (!fileContents[did]) throw Error('Identity not found')
     delete fileContents[did]
+    debug('Deleting', did)
     return this.writeToFile(fileContents)
   }
 
   async set(did: string, serializedIdentity: SerializedIdentity) {
     const fileContents = this.readFromFile()
     fileContents[did] = serializedIdentity
+    debug('Saving', did)
     return this.writeToFile(fileContents)
   }
 

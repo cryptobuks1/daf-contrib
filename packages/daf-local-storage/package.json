@@ -1,6 +1,6 @@
 {
-  "name": "daf-ethr-did-fs",
-  "description": "DAF ehtr-did fs identity controller",
+  "name": "daf-local-storage",
+  "description": "DAF File system modules",
   "version": "1.4.1",
   "main": "build/index.js",
   "types": "build/index.d.ts",
@@ -8,22 +8,11 @@
     "build": "tsc"
   },
   "dependencies": {
-    "base-58": "^0.0.1",
-    "base64url": "^3.0.1",
     "daf-core": "^1.4.1",
-    "daf-resolver": "^1.1.0",
-    "debug": "^4.1.1",
-    "elliptic": "^6.5.2",
-    "ethjs-provider-signer": "^0.1.4",
-    "ethjs-signer": "^0.1.1",
-    "ethr-did": "^1.1.0",
-    "js-sha3": "^0.8.0",
-    "libsodium-wrappers": "^0.7.6"
+    "debug": "^4.1.1"
   },
   "devDependencies": {
     "@types/debug": "^4.1.5",
-    "@types/ethjs-signer": "^0.1.0",
-    "@types/libsodium-wrappers": "^0.7.7",
     "typescript": "^3.7.2"
   },
   "files": [
