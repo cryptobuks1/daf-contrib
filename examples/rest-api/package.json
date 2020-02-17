@@ -1,23 +1,25 @@
 {
-  "name": "send-vc",
+  "name": "rest-api",
   "private": true,
   "version": "1.4.1",
   "main": "index.ts",
   "scripts": {
-    "start": "ts-node index.ts"
+    "start": "nodemon"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.2",
+    "ts-node": "^8.6.2",
+    "typescript": "^3.7.5"
   },
   "dependencies": {
     "daf-core": "../daf/packages/daf-core",
-    "daf-debug": "../daf/packages/daf-debug",
+    "daf-did-comm": "../daf/packages/daf-did-comm",
     "daf-did-jwt": "../daf/packages/daf-did-jwt",
     "daf-ethr-did": "../daf/packages/daf-ethr-did",
     "daf-fs": "../daf/packages/daf-fs",
     "daf-libsodium": "../daf/packages/daf-libsodium",
-    "daf-resolver-universal": "../daf/packages/daf-resolver-universal",
-    "daf-trust-graph": "../daf/packages/daf-trust-graph",
+    "daf-resolver": "../daf/packages/daf-resolver",
     "daf-w3c": "../daf/packages/daf-w3c",
-    "ts-node": "^8.5.4",
-    "typescript": "^3.7.3"
-  },
-  "license": "Apache-2.0"
+    "express": "^4.17.1"
+  }
 }
