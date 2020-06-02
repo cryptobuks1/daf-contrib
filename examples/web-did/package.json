@@ -12,12 +12,12 @@
     "typescript": "^3.7.5"
   },
   "dependencies": {
-    "daf-core": "../../packages/daf-core",
-    "daf-did-comm": "../../packages/daf-did-comm",
-    "daf-did-jwt": "../../packages/daf-did-jwt",
-    "daf-libsodium": "../../packages/daf-libsodium",
-    "daf-resolver": "../../packages/daf-resolver",
-    "daf-w3c": "../../packages/daf-w3c",
+    "daf-core": "^6.0.0",
+    "daf-did-comm": "^6.0.0",
+    "daf-did-jwt": "^6.0.0",
+    "daf-libsodium": "^6.0.0",
+    "daf-resolver": "^6.0.0",
+    "daf-w3c": "^6.0.0",
     "daf-web-did": "../../packages/daf-web-did",
     "express": "^4.17.1",
     "ngrok": "^3.2.7",

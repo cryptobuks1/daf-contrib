@@ -14,10 +14,5 @@
   },
   "exclude": ["**/__tests__/**/*", "**/build/**/*"],
   "references": [
-    { "path": "../../packages/daf-core" },
-    { "path": "../../packages/daf-did-jwt" },
-    { "path": "../../packages/daf-resolver" },
-    { "path": "../../packages/daf-selective-disclosure" },
-    { "path": "../../packages/daf-w3c" }
   ]
 }

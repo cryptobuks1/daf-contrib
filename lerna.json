@@ -5,7 +5,7 @@
   ],
   "npmClient": "yarn",
   "changelog": {
-    "repo": "uport-project/daf",
+    "repo": "uport-project/daf-cli",
     "cacheDir": ".changelog"
   },
   "command": {

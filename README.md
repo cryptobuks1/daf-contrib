@@ -1,26 +1,14 @@
-[![uport-project](https://circleci.com/gh/uport-project/daf.svg?style=svg)](https://circleci.com/gh/uport-project/daf/tree/master)
-[![codecov](https://codecov.io/gh/uport-project/daf/branch/master/graph/badge.svg)](https://codecov.io/gh/uport-project/daf)
+[![uport-project](https://circleci.com/gh/uport-project/daf-contrib.svg?style=svg)](https://circleci.com/gh/uport-project/daf-contrib/tree/master)
+[![codecov](https://codecov.io/gh/uport-project/daf-contrib/branch/master/graph/badge.svg)](https://codecov.io/gh/uport-project/daf-contrib)
 
-# DID Agent Framework
+# DID Agent Framework contributed plugins
 
-## Documentation
-
-- [Guide](docs/Docs.md)
-- [Data flow diagrams](docs/DataFlows.md)
-- [Message Validator chain](docs/MessageValidator.md)
-- [API Reference](docs/api/index.md)
-
-## Architecture
-
-![architecture](docs/assets/architecture.png)
-
-## ORM Data model
-
-[![orm](docs/assets/orm-data-model.png)](docs/assets/orm-data-model.png)
+This repository collects plugins for DAF that are not part of the core.
 
 ## Local development
 
-DAF monorepo uses [yarn](https://yarnpkg.com/) [workspaces](https://classic.yarnpkg.com/en/docs/workspaces/) and [lerna](https://lerna.js.org/)
+DAF-contrib monorepo uses [yarn](https://yarnpkg.com/) [workspaces](https://classic.yarnpkg.com/en/docs/workspaces/)
+and [lerna](https://lerna.js.org/)
 
 Install root package dependencies
 
