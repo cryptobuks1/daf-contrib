@@ -23,24 +23,24 @@
     }
   },
   "devDependencies": {
-    "@commitlint/cli": "^8.3.5",
-    "@commitlint/config-conventional": "^8.3.4",
-    "@microsoft/api-documenter": "^7.7.12",
-    "@microsoft/api-extractor": "^7.7.8",
-    "@types/jest": "^25.1.4",
-    "codecov": "^3.6.5",
-    "husky": "^4.2.3",
-    "jest": "^25.1.0",
-    "jest-fetch-mock": "^3.0.3",
-    "lerna": "^3.20.2",
-    "lerna-changelog": "^1.0.1",
-    "prettier": "^1.19.1",
-    "pretty-quick": "^2.0.1",
-    "rimraf": "^3.0.2",
-    "semantic-release": "^17.0.4",
-    "ts-jest": "^25.2.1",
-    "ts-node": "^8.6.2",
-    "typescript": "^3.8.3"
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "@microsoft/api-documenter": "7.8.10",
+    "@microsoft/api-extractor": "7.8.10",
+    "@types/jest": "25.2.3",
+    "codecov": "3.7.0",
+    "husky": "4.2.5",
+    "jest": "25.5.4",
+    "jest-fetch-mock": "3.0.3",
+    "lerna": "3.22.0",
+    "lerna-changelog": "1.0.1",
+    "prettier": "1.19.1",
+    "pretty-quick": "2.0.1",
+    "rimraf": "3.0.2",
+    "semantic-release": "17.0.8",
+    "ts-jest": "25.5.1",
+    "ts-node": "8.10.2",
+    "typescript": "3.9.3"
   },
   "repository": {
     "type": "git",
@@ -59,6 +59,6 @@
     ]
   },
   "dependencies": {
-    "rimraf": "^3.0.2"
+    "rimraf": "3.0.2"
   }
 }

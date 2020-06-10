@@ -19,10 +19,10 @@
     "react-native-sodium": "*"
   },
   "devDependencies": {
-    "@types/debug": "^4.1.5",
-    "@types/ethjs-signer": "^0.1.0",
-    "react-native-sodium": "^0.3.6",
-    "typescript": "^3.8.3"
+    "@types/debug": "4.1.5",
+    "@types/ethjs-signer": "0.1.0",
+    "react-native-sodium": "0.3.6",
+    "typescript": "3.9.3"
   },
   "files": [
     "build/**/*",
