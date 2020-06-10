@@ -1,7 +1,7 @@
 {
   "name": "daf-fs",
   "description": "DAF File system modules",
-  "version": "6.1.1",
+  "version": "6.1.2",
   "main": "build/index.js",
   "types": "build/index.d.ts",
   "scripts": {
