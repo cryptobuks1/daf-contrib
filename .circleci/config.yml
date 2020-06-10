@@ -105,7 +105,7 @@ jobs:
   docker:
     working_directory: ~/repo
     docker:
-      - image: circleci/node:8.10
+      - image: circleci/node:8.17
     steps:
       - checkout
       - setup_remote_docker
