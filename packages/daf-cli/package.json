@@ -46,7 +46,7 @@
     "@types/inquirer": "6.5.0",
     "@types/lodash.merge": "4.6.6",
     "@types/node-fetch": "2.5.7",
-    "@types/ws": "6.0.4",
+    "@types/ws": "7.2.5",
     "typescript": "3.9.5"
   },
   "peerDependencies": {
