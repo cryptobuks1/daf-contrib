@@ -1952,10 +1952,10 @@
     jsonschema "^1.2.4"
     lodash "^4.17.11"
 
-"@transmute/element-lib@^0.7.4":
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/@transmute/element-lib/-/element-lib-0.7.4.tgz#97924655f8ce9485212339faa49ec74137b5107c"
-  integrity sha512-6DQwt2VTzmD3GXJQiImHPtqW6JZSbsaNozLWax8Gi+WXHIgtSYcQoUcBl+BmlilOjBb5x3oyR2IYJMJyKgSTgQ==
+"@transmute/element-lib@^0.8.0":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@transmute/element-lib/-/element-lib-0.8.1.tgz#25882f35156e9f63688b9b2a0aab6247306b1833"
+  integrity sha512-ur69StfjqvaV7t9huLwM4+b0fru0uxNfQEF87edRu65PY6nWQd0GFvFuvysDlGR4etW30l0XCDXCi/Z9DyP6dA==
   dependencies:
     "@transmute/did-wallet" "0.0.0-6"
     "@transmute/es256k-jws-ts" "0.0.4"
@@ -1992,7 +1992,7 @@
     secp256k1 "^3.6.2"
     web3 "^1.2.2"
     winston "^3.2.1"
-    x25519-key-pair digitalbazaar/x25519-key-pair#initial
+    x25519-key-pair "github:digitalbazaar/x25519-key-pair#initial"
 
 "@transmute/es256k-jws-ts@0.0.4":
   version "0.0.4"
@@ -17977,8 +17977,9 @@ ws@^7.0.0, ws@^7.2.0:
   resolved "https://registry.yarnpkg.com/ws/-/ws-7.3.0.tgz#4b2f7f219b3d3737bc1a2fbf145d825b94d38ffd"
   integrity sha512-iFtXzngZVXPGgpTlP1rBqsUK82p9tKqsWRPg5L56egiljujJT3vGAYnHANvFxBieXrTFavhzhxW52jnaWV+w2w==
 
-x25519-key-pair@digitalbazaar/x25519-key-pair#initial:
+"x25519-key-pair@github:digitalbazaar/x25519-key-pair#initial":
   version "0.1.0"
+  uid "7c6b68f94e24a8a749547acfa61453a356bf8fe1"
   resolved "https://codeload.github.com/digitalbazaar/x25519-key-pair/tar.gz/7c6b68f94e24a8a749547acfa61453a356bf8fe1"
   dependencies:
     crypto-ld "^3.6.0"
