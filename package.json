@@ -32,7 +32,7 @@
     "husky": "4.2.5",
     "jest": "25.5.4",
     "jest-fetch-mock": "3.0.3",
-    "lerna": "3.22.0",
+    "lerna": "3.22.1",
     "lerna-changelog": "1.0.1",
     "prettier": "1.19.1",
     "pretty-quick": "2.0.1",
