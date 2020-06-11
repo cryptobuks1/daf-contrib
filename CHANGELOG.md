@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.1.3](https://github.com/uport-project/daf-contrib/compare/v6.1.2...v6.1.3) (2020-06-11)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @transmute/element-lib to ^0.8.0 ([4e9aaa1](https://github.com/uport-project/daf-contrib/commit/4e9aaa118353e07b6eda376a0adcc08c518ab6d0))
+
+
+
+
+
 ## [6.1.2](https://github.com/uport-project/daf-contrib/compare/v6.1.1...v6.1.2) (2020-06-10)
 
 **Note:** Version bump only for package daf-contrib
