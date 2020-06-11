@@ -34,7 +34,7 @@
     "jest-fetch-mock": "3.0.3",
     "lerna": "3.22.1",
     "lerna-changelog": "1.0.1",
-    "prettier": "1.19.1",
+    "prettier": "2.0.5",
     "pretty-quick": "2.0.1",
     "rimraf": "3.0.2",
     "semantic-release": "17.0.8",
