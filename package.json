@@ -27,7 +27,7 @@
     "@commitlint/config-conventional": "9.0.1",
     "@microsoft/api-documenter": "7.8.16",
     "@microsoft/api-extractor": "7.8.12",
-    "@types/jest": "26.0.0",
+    "@types/jest": "26.0.3",
     "codecov": "3.7.0",
     "husky": "4.2.5",
     "jest": "26.1.0",
