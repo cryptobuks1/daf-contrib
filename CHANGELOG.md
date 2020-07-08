@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.1.4](https://github.com/uport-project/daf-contrib/compare/v6.1.3...v6.1.4) (2020-07-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency commander to v5 ([#20](https://github.com/uport-project/daf-contrib/issues/20)) ([d67cb78](https://github.com/uport-project/daf-contrib/commit/d67cb78982b4251c29c57731c823921a2a385870))
+* **deps:** update dependency graphql to v15 ([#45](https://github.com/uport-project/daf-contrib/issues/45)) ([840a39d](https://github.com/uport-project/daf-contrib/commit/840a39d4a85e9af668c8f0afb48506bd0fe70c87))
+* **deps:** update dependency graphql-tools to v6 ([#22](https://github.com/uport-project/daf-contrib/issues/22)) ([50f3267](https://github.com/uport-project/daf-contrib/commit/50f32674e129076eb5dc7d658c265dd0b1d8c70c))
+* **deps:** update dependency sqlite3 to v5 ([#39](https://github.com/uport-project/daf-contrib/issues/39)) ([efb3f58](https://github.com/uport-project/daf-contrib/commit/efb3f58e847e7857125ca88424c95f187a90b9ae))
+
+
+
+
+
 ## [6.1.3](https://github.com/uport-project/daf-contrib/compare/v6.1.2...v6.1.3) (2020-06-11)
 
 
