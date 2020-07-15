@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [6.1.5](https://github.com/uport-project/daf-contrib/compare/v6.1.4...v6.1.5) (2020-07-15)
+
+
+### Bug Fixes
+
+* **deps:** update dependency console-table-printer to v2 ([#49](https://github.com/uport-project/daf-contrib/issues/49)) ([31c926c](https://github.com/uport-project/daf-contrib/commit/31c926cb7c6c94abc19b13cdae9d71f7f2af8a2d))
+
+
+
+
+
 ## [6.1.4](https://github.com/uport-project/daf-contrib/compare/v6.1.3...v6.1.4) (2020-07-08)
 
 
