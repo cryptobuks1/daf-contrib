@@ -5940,10 +5940,10 @@ console-control-strings@^1.0.0, console-control-strings@^1.1.0, console-control-
   resolved "https://registry.yarnpkg.com/console-control-strings/-/console-control-strings-1.1.0.tgz#3d7cf4464db6446ea644bf4b39507f9851008e8e"
   integrity sha1-PXz0Rk22RG6mRL9LOVB/mFEAjo4=
 
-console-table-printer@^1.1.15:
-  version "1.4.30"
-  resolved "https://registry.yarnpkg.com/console-table-printer/-/console-table-printer-1.4.30.tgz#a4ff03d581956d8b4075780596bdb631fbc0d50d"
-  integrity sha512-7IYnsfa4sP2jTV33tSUSebRQtUeO6q56FhLja8m+yaaZWDFXIg6lq6bEKOlB1YSYbO7utKtjBjmyV6CW6EEkBA==
+console-table-printer@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/console-table-printer/-/console-table-printer-2.0.0.tgz#37081992e9bf8ba879f1ca93a6d0dc1a6c0e7146"
+  integrity sha512-V8A9CzRfF/M2yWFACIC38tfS+IwhNyL0rzxoxnho4FXQaAjmVRotYsI4hB3IsfEuPaxz83xwEhDMyKuKRpOgkA==
 
 content-disposition@0.5.3:
   version "0.5.3"

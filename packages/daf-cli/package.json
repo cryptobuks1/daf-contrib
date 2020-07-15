@@ -14,7 +14,7 @@
   "dependencies": {
     "apollo-server": "^2.9.12",
     "commander": "^5.0.0",
-    "console-table-printer": "^1.1.15",
+    "console-table-printer": "^2.0.0",
     "daf-core": "^6.0.0",
     "daf-did-comm": "^6.0.0",
     "daf-did-jwt": "^6.0.0",
