@@ -532,8 +532,10 @@ crypto-random-string@^2.0.0:
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-2.0.0.tgz#ef2a7a966ec11083388369baa02ebead229b30d5"
   integrity sha512-v1plID3y9r/lPhviJ1wrXpLeyUIGAZ2SHNYTEapm7/8A9nLPoyvVp3RK/EPFqn5kEznyWgYZNsRtYYIWbuG8KA==
 
-daf-core@../../packages/daf-core, daf-core@^5.6.4, daf-core@^5.6.5:
-  version "5.6.5"
+daf-core@^6.0.0, daf-core@^6.1.1:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/daf-core/-/daf-core-6.1.1.tgz#4d2b45e4bb1b5a8fee7b6d20ab1cde597109537a"
+  integrity sha512-EsKMU5lwqPvwq2zf20uoShivZuMJUEV/wY6MCBasfaFfOj2+VDmLINnqZpsDOBvAAmWiwROxVEd/IgNhhThw9w==
   dependencies:
     blakejs "^1.1.0"
     debug "^4.1.1"
@@ -541,35 +543,43 @@ daf-core@../../packages/daf-core, daf-core@^5.6.4, daf-core@^5.6.5:
     typeorm "^0.2.24"
     uuid "^7.0.2"
 
-daf-did-comm@../../packages/daf-did-comm:
-  version "5.6.5"
+daf-did-comm@^6.0.0:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/daf-did-comm/-/daf-did-comm-6.1.1.tgz#7508fc04b0fdb0daac0811d6d300eb918e693051"
+  integrity sha512-cGEKT2apoeLrFR8Q5sMQ0POIyv8RjAFiSi9H2DPIy1pb/D+1WFiZqLTYz/9WQpJZBUP1sgI6/R/ipq1gr6Tm8A==
   dependencies:
     cross-fetch "^3.0.4"
-    daf-core "^5.6.5"
+    daf-core "^6.1.1"
     debug "^4.1.1"
     uuid "^3.3.3"
 
-daf-did-jwt@../../packages/daf-did-jwt, daf-did-jwt@^5.6.5:
-  version "5.6.5"
+daf-did-jwt@^6.0.0:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/daf-did-jwt/-/daf-did-jwt-6.1.1.tgz#f03c70cd6cac3e0bf8fb76452560e496102fe419"
+  integrity sha512-RldbXbwhnRWi91jGLtlNMQqctPzvSJSESsowMTTiMNS6PJWzN7HqU8OdCFQXhHofsCdIvn3/W6Ej6hgLjhglcw==
   dependencies:
-    daf-core "^5.6.5"
+    daf-core "^6.1.1"
     debug "^4.1.1"
     did-jwt "^4.3.2"
     did-resolver "^1.1.0"
 
-daf-libsodium@../../packages/daf-libsodium:
-  version "5.6.5"
+daf-libsodium@^6.0.0:
+  version "6.1.1"
+  resolved "https://registry.yarnpkg.com/daf-libsodium/-/daf-libsodium-6.1.1.tgz#d097b79eb9bfa8a9addaab68de39a96f6701617d"
+  integrity sha512-En5X2fyt5k+PN2TraaNEQdoOo/hpw05JL1S9z6I2NSdOm+zJ0+0HTbB3BBYrN9N8OD3yDzQBmOHb+P+8Cno98w==
   dependencies:
     base-58 "^0.0.1"
-    daf-core "^5.6.5"
+    daf-core "^6.1.1"
     debug "^4.1.1"
     did-jwt "^4.3.2"
     elliptic "^6.5.2"
     ethjs-signer "^0.1.1"
     libsodium-wrappers "^0.7.6"
 
-daf-resolver@../../packages/daf-resolver:
-  version "5.5.2"
+daf-resolver@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/daf-resolver/-/daf-resolver-6.0.0.tgz#e5ab7a3eb401abd892263e3f9525685a720868d8"
+  integrity sha512-57+JvSucx6pf/qusEWEaSBNG3swHb3PbrwraYGrubwafYxTnC1V/81hOtJO4k7/pE42/XPgMYVqINxcEteD5mA==
   dependencies:
     debug "^4.1.1"
     did-resolver "^1.1.0"
@@ -577,20 +587,22 @@ daf-resolver@../../packages/daf-resolver:
     nacl-did "^1.0.0"
     web-did-resolver "^1.2.0"
 
-daf-w3c@../../packages/daf-w3c:
-  version "5.6.5"
+daf-w3c@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/daf-w3c/-/daf-w3c-6.0.0.tgz#9c00abd19dc56dd505f3638bde526d3119473e55"
+  integrity sha512-YnX+RqE7LhrRijPUS2UYmoMRSMNDOAVlTh8nFxsrWjl+hT1C3dXcwFEs9Vw7Y1dkdTMGlQTPx8KT1qfdvqMkvA==
   dependencies:
     blakejs "^1.1.0"
-    daf-core "^5.6.5"
-    daf-did-jwt "^5.6.5"
+    daf-core "^6.0.0"
+    daf-did-jwt "^6.0.0"
     debug "^4.1.1"
     did-jwt-vc "0.2.0"
     did-resolver "^1.1.0"
 
 daf-web-did@../../packages/daf-web-did:
-  version "5.6.4"
+  version "6.1.4"
   dependencies:
-    daf-core "^5.6.4"
+    daf-core "^6.0.0"
     debug "^4.1.1"
 
 dashdash@^1.12.0:
@@ -1491,9 +1503,9 @@ locate-path@^5.0.0:
     p-locate "^4.1.0"
 
 lodash@^4.17.15:
-  version "4.17.15"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
-  integrity sha512-8xOcRHvCjnocdS5cpwXQXVzmmh5e5+saE2QGoeQmbKmRS6J3VQppPOIt0MnmE+4xlZoumy0GPG0D0MVIQbNA1A==
+  version "4.17.19"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.19.tgz#e48ddedbe30b3321783c5b4301fbd353bc1e4a4b"
+  integrity sha512-JNvd8XER9GQX0v2qJgsaN/mzFCNA5BRe/j8JN9d+tWyGLSodKQHKFicdwNYzWwI3wjRnaKPsGj1XkBjx/F96DQ==
 
 lowercase-keys@^1.0.0, lowercase-keys@^1.0.1:
   version "1.0.1"
