@@ -73,7 +73,7 @@ jobs:
           command: npm whoami
       - run:
           name: Release packages to npm
-          command: npx lerna publish --yes
+          command: npx lerna publish --conventional-commits --yes
 
   publish-beta-packages-npm:
     <<: *defaults
