@@ -1,18 +1,14 @@
 {
-  "version": "6.1.6",
-  "packages": [
-    "packages/*"
-  ],
+  "version": "independent",
+  "packages": ["packages/*"],
   "npmClient": "yarn",
   "changelog": {
-    "repo": "uport-project/daf-cli",
+    "repo": "uport-project/daf-contrib",
     "cacheDir": ".changelog"
   },
   "command": {
     "publish": {
-      "allowBranch": [
-        "master"
-      ],
+      "allowBranch": ["master"],
       "conventionalCommits": true,
       "gitRemote": "origin",
       "message": "chore(release): %s"
