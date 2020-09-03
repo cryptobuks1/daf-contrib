@@ -3,6 +3,260 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 6.2.0 (2020-09-03)
+
+
+### Features
+
+* upgrade daf-rn-libsodium to daf7@beta interfaces ([241e793](https://github.com/uport-project/daf/commit/241e793449fc18d545fe006ed869296271e7117c))
+
+
+
+## 6.1.6 (2020-07-20)
+
+
+
+## 6.1.4 (2020-07-08)
+
+
+
+## 6.1.3 (2020-06-11)
+
+
+
+## 6.1.2 (2020-06-10)
+
+
+
+## 6.1.1 (2020-06-10)
+
+
+
+# 6.0.0 (2020-05-29)
+
+
+
+# 5.7.0 (2020-05-29)
+
+
+
+## 5.6.6 (2020-05-26)
+
+
+
+## 5.6.5 (2020-05-25)
+
+
+
+## 5.6.4 (2020-05-22)
+
+
+
+# 5.5.0 (2020-05-13)
+
+
+
+# 5.1.0 (2020-05-06)
+
+
+
+# 5.0.0 (2020-05-05)
+
+
+
+# 4.4.0 (2020-04-29)
+
+
+### Features
+
+* Encrypting private keys with SecretBox ([7170361](https://github.com/uport-project/daf/commit/7170361e1bb8f565c606e1a3f2b006bc7e9a1d9a))
+
+
+
+# 4.3.0 (2020-04-28)
+
+
+
+# 4.2.0 (2020-04-24)
+
+
+
+# 4.1.0 (2020-04-23)
+
+
+
+# 4.0.0 (2020-04-22)
+
+
+
+# 4.0.0-beta.48 (2020-04-22)
+
+
+
+# 4.0.0-beta.47 (2020-04-17)
+
+
+
+# 4.0.0-beta.46 (2020-04-17)
+
+
+
+# 4.0.0-beta.45 (2020-04-16)
+
+
+
+# 4.0.0-beta.44 (2020-04-15)
+
+
+
+# 4.0.0-beta.43 (2020-04-15)
+
+
+
+## 3.4.3 (2020-04-10)
+
+
+### Bug Fixes
+
+* **deps:** enable verification of ES256K signatures with default did:ethr: docs ([307ba69](https://github.com/uport-project/daf/commit/307ba69cb68d6749e724953ae8065fbcaa8cf68e))
+
+
+
+# 4.0.0-beta.42 (2020-04-09)
+
+
+
+## 3.4.2 (2020-03-23)
+
+
+
+# 3.4.0 (2020-03-19)
+
+
+
+# 3.3.0 (2020-03-19)
+
+
+
+# 3.2.0 (2020-03-19)
+
+
+
+## 3.1.3 (2020-03-18)
+
+
+
+## 3.0.2 (2020-03-16)
+
+
+
+## 3.0.1 (2020-03-16)
+
+
+
+# 3.0.0 (2020-03-13)
+
+
+
+# 2.5.0 (2020-03-13)
+
+
+
+## 2.3.19 (2020-03-11)
+
+
+
+## 2.3.18 (2020-03-10)
+
+
+
+## 2.3.16 (2020-03-03)
+
+
+
+## 2.3.15 (2020-03-02)
+
+
+### Bug Fixes
+
+* Typescript types ([05dc7cc](https://github.com/uport-project/daf/commit/05dc7cc4bf49162eaea581f1dc3030aa3898358a))
+
+
+
+## 2.3.10 (2020-02-25)
+
+
+
+## 2.3.8 (2020-02-19)
+
+
+### Bug Fixes
+
+* Await in IdentityProvider and KMS ([60218e5](https://github.com/uport-project/daf/commit/60218e5c7b92069a3abdb21400fe3f83588fd564))
+
+
+
+## 2.3.7 (2020-02-18)
+
+
+### Bug Fixes
+
+* React native deps ([e03a8b9](https://github.com/uport-project/daf/commit/e03a8b9d55ed54ab63c124792db6f03e2296c4af))
+* React native peerDependencies ([bb7753b](https://github.com/uport-project/daf/commit/bb7753b0bcc7c98648d44d3ba311025d9402cc11))
+
+
+
+## 2.3.6 (2020-02-18)
+
+
+### Bug Fixes
+
+* Mixup with pk and sk ([e8c999b](https://github.com/uport-project/daf/commit/e8c999bd5d1114c02e02abbd00f093e4b399980c))
+
+
+
+## 2.3.5 (2020-02-18)
+
+
+### Bug Fixes
+
+* Decoding base64 keys ([c4770c0](https://github.com/uport-project/daf/commit/c4770c02a15f1833fbcbc0562b8b81b46d04f7c2))
+
+
+
+## 2.3.4 (2020-02-18)
+
+
+### Bug Fixes
+
+* Await crypto_sign_keypair ([fc15a11](https://github.com/uport-project/daf/commit/fc15a11ddfcc205595eaa2c7db7bf6fe8e558d96))
+
+
+
+## 2.3.2 (2020-02-18)
+
+
+
+## 2.3.1 (2020-02-18)
+
+
+### Bug Fixes
+
+* Corrected dependency ([9d4ef0d](https://github.com/uport-project/daf/commit/9d4ef0dd9f9cf541aafd3d25644f1f27ac818e0f))
+
+
+
+# 2.3.0 (2020-02-18)
+
+
+### Features
+
+* Adding daf-react-native-libsodium ([0d43580](https://github.com/uport-project/daf/commit/0d43580033ea5144b92e3d6a1e84a46f0fe5281d))
+
+
+
+
+
 ## [6.1.6](https://github.com/uport-project/daf/compare/v6.1.5...v6.1.6) (2020-07-20)
 
 **Note:** Version bump only for package daf-react-native-libsodium

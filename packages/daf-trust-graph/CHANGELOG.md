@@ -3,6 +3,442 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 6.2.0 (2020-09-03)
+
+
+
+## 6.1.6 (2020-07-20)
+
+
+
+## 6.1.4 (2020-07-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency graphql to v15 ([#45](https://github.com/uport-project/daf/issues/45)) ([840a39d](https://github.com/uport-project/daf/commit/840a39d4a85e9af668c8f0afb48506bd0fe70c87))
+
+
+
+## 6.1.3 (2020-06-11)
+
+
+
+## 6.1.2 (2020-06-10)
+
+
+
+## 6.1.1 (2020-06-10)
+
+
+
+# 6.0.0 (2020-05-29)
+
+
+
+# 5.7.0 (2020-05-29)
+
+
+
+## 5.6.6 (2020-05-26)
+
+
+
+## 5.6.5 (2020-05-25)
+
+
+
+## 5.6.4 (2020-05-22)
+
+
+
+# 5.5.0 (2020-05-13)
+
+
+
+# 5.1.0 (2020-05-06)
+
+
+
+# 5.0.0 (2020-05-05)
+
+
+
+# 4.4.0 (2020-04-29)
+
+
+
+# 4.3.0 (2020-04-28)
+
+
+
+# 4.2.0 (2020-04-24)
+
+
+
+# 4.1.0 (2020-04-23)
+
+
+
+# 4.0.0 (2020-04-22)
+
+
+
+# 4.0.0-beta.48 (2020-04-22)
+
+
+
+# 4.0.0-beta.47 (2020-04-17)
+
+
+
+# 4.0.0-beta.46 (2020-04-17)
+
+
+
+# 4.0.0-beta.45 (2020-04-16)
+
+
+
+# 4.0.0-beta.44 (2020-04-15)
+
+
+
+# 4.0.0-beta.43 (2020-04-15)
+
+
+
+## 3.4.3 (2020-04-10)
+
+
+### Bug Fixes
+
+* **deps:** enable verification of ES256K signatures with default did:ethr: docs ([307ba69](https://github.com/uport-project/daf/commit/307ba69cb68d6749e724953ae8065fbcaa8cf68e))
+
+
+
+# 4.0.0-beta.42 (2020-04-09)
+
+
+### Features
+
+* Renamed Core to Agent ([05e2e61](https://github.com/uport-project/daf/commit/05e2e61087a684ff3aa1102980e96380e032d01c))
+* Renaming MessageValidator to MessageHandler ([f2200dc](https://github.com/uport-project/daf/commit/f2200dcbea9586634b3fd7e26a13301a81e201e5))
+* SignCredentialJwt returns Credential ([d1efc38](https://github.com/uport-project/daf/commit/d1efc38b189c230bd3e781f349b7a4eb4d15df27))
+* Use handleMessage instead of validateMessage ([26beb67](https://github.com/uport-project/daf/commit/26beb675f8a70f7d9303cdd9c952ceae58e6b027))
+
+
+
+## 3.4.2 (2020-03-23)
+
+
+
+# 3.4.0 (2020-03-19)
+
+
+
+# 3.3.0 (2020-03-19)
+
+
+
+# 3.2.0 (2020-03-19)
+
+
+
+## 3.1.3 (2020-03-18)
+
+
+
+## 3.0.2 (2020-03-16)
+
+
+
+## 3.0.1 (2020-03-16)
+
+
+
+# 3.0.0 (2020-03-13)
+
+
+
+# 2.5.0 (2020-03-13)
+
+
+
+## 2.3.19 (2020-03-11)
+
+
+
+## 2.3.18 (2020-03-10)
+
+
+### Bug Fixes
+
+* Building ([dfbba47](https://github.com/uport-project/daf/commit/dfbba4776164d3e80fd8b380094856aab05f2e3e))
+
+
+
+## 2.3.16 (2020-03-03)
+
+
+
+## 2.3.15 (2020-03-02)
+
+
+### Bug Fixes
+
+* GQL export ([56d5c57](https://github.com/uport-project/daf/commit/56d5c578093d221c2a4e5a091593e17bd22eacee))
+
+
+
+## 2.3.14 (2020-03-02)
+
+
+### Bug Fixes
+
+* TG findEdges fromDID ([3372683](https://github.com/uport-project/daf/commit/337268374d27c19ea09b7f7c4863d13fec4c55bf))
+* Typescript types ([05dc7cc](https://github.com/uport-project/daf/commit/05dc7cc4bf49162eaea581f1dc3030aa3898358a))
+
+
+
+## 2.3.10 (2020-02-25)
+
+
+
+# 2.1.0 (2020-02-17)
+
+
+
+# 2.0.0 (2020-02-17)
+
+
+### Features
+
+* Daf-ethr-did-fs using experimental interface ([a1709cc](https://github.com/uport-project/daf/commit/a1709ccc6904dbb59aad43e95840c01795a56ce1))
+* FS dids backed by jwk ([53c476a](https://github.com/uport-project/daf/commit/53c476abd7f9bc319c814be4a1dbf2c9b46256d7))
+
+
+
+## 1.4.1 (2020-01-14)
+
+
+
+# 1.4.0 (2020-01-14)
+
+
+
+## 1.3.5 (2020-01-08)
+
+
+
+## 1.3.4 (2020-01-03)
+
+
+
+## 1.3.3 (2019-12-20)
+
+
+
+## 1.3.2 (2019-12-20)
+
+
+
+# 1.2.0 (2019-12-16)
+
+
+
+## 1.1.1 (2019-12-16)
+
+
+
+# 1.1.0 (2019-12-16)
+
+
+
+## 0.10.3 (2019-12-12)
+
+
+### Bug Fixes
+
+* Unifying debug messages ([9395901](https://github.com/uport-project/daf/commit/93959019f3f4757ff7db05b26e1fcab190400f93))
+
+
+
+## 0.10.2 (2019-12-11)
+
+
+### Bug Fixes
+
+* Default TGE with WebSocket support ([720728f](https://github.com/uport-project/daf/commit/720728f06a140da99b99f256c10b164857de7605))
+
+
+
+# 0.10.0 (2019-12-10)
+
+
+### Features
+
+* Message object with validation ([a2fa4a6](https://github.com/uport-project/daf/commit/a2fa4a6b98a2b9dbf149f0b150029ca870f14a00))
+
+
+
+# 0.9.0 (2019-12-05)
+
+
+
+# 0.8.0 (2019-12-04)
+
+
+
+## 0.7.8 (2019-12-04)
+
+
+### Bug Fixes
+
+* TG subscription connection params ([2029c3d](https://github.com/uport-project/daf/commit/2029c3dad8bf76eff33ba0abe2adc046e377229f))
+
+
+
+## 0.7.7 (2019-12-03)
+
+
+### Bug Fixes
+
+* TG subscription ([b5f3b93](https://github.com/uport-project/daf/commit/b5f3b93d7e1a6016e6f289636b7a606e4e96e5c9))
+
+
+
+## 0.7.4 (2019-12-02)
+
+
+### Bug Fixes
+
+* TGE subscribtion query ([3bf0f7e](https://github.com/uport-project/daf/commit/3bf0f7ed924b492d7d25d551908ad6eb6bea552f))
+
+
+
+# 0.7.0 (2019-11-29)
+
+
+
+## 0.6.1 (2019-11-28)
+
+
+### Bug Fixes
+
+* Express example ([855b665](https://github.com/uport-project/daf/commit/855b665b77eb879680c2fcc175925c5c7e760812))
+* TG subscribtion ([209d9c1](https://github.com/uport-project/daf/commit/209d9c1a7dadf2cbc157ac5e93c6e3f977cc8e87))
+
+
+
+# 0.6.0 (2019-11-27)
+
+
+
+## 0.5.1 (2019-11-26)
+
+
+### Bug Fixes
+
+* Removing dependency ([dab3e67](https://github.com/uport-project/daf/commit/dab3e67f0940f1fc5aeeb41f18d20fef7f74ada8))
+* Sign auth token for every sync query ([c57af0a](https://github.com/uport-project/daf/commit/c57af0a9e338cb75911cb9d5a34811fdc67b5f41))
+
+
+
+# 0.4.0 (2019-11-25)
+
+
+### Features
+
+* Added actionSignVc mutation ([c19226a](https://github.com/uport-project/daf/commit/c19226a71e3af5eb1e23a0c299d8a18ab7f8262c))
+
+
+
+# 0.3.0 (2019-11-24)
+
+
+
+# 0.2.0 (2019-11-23)
+
+
+
+# 0.1.0 (2019-11-22)
+
+
+
+## 0.0.26 (2019-11-22)
+
+
+### Bug Fixes
+
+* Wait for messages to be validated ([2339bc1](https://github.com/uport-project/daf/commit/2339bc1d08692fb2bdc9e66553e3d69aae7236ac))
+
+
+
+## 0.0.25 (2019-11-21)
+
+
+
+## 0.0.24 (2019-11-19)
+
+
+
+## 0.0.23 (2019-11-14)
+
+
+
+## 0.0.22 (2019-11-14)
+
+
+
+## 0.0.21 (2019-11-14)
+
+
+
+## 0.0.20 (2019-11-14)
+
+
+### Bug Fixes
+
+* Deps ([543472e](https://github.com/uport-project/daf/commit/543472e0b66c62e83e02a86695d2de712f92bf05))
+
+
+
+## 0.0.19 (2019-11-14)
+
+
+
+## 0.0.18 (2019-11-13)
+
+
+
+## 0.0.17 (2019-11-13)
+
+
+
+## 0.0.16 (2019-11-13)
+
+
+
+## 0.0.15 (2019-11-13)
+
+
+
+## 0.0.14 (2019-11-13)
+
+
+
+## 0.0.13 (2019-11-13)
+
+
+### Features
+
+* daf-trust-graph ([3d7e6c5](https://github.com/uport-project/daf/commit/3d7e6c5da2b9cb1378c1cdf859c41d7541ae0614))
+
+
+
+
+
 ## [6.1.6](https://github.com/uport-project/daf/compare/v6.1.5...v6.1.6) (2020-07-20)
 
 **Note:** Version bump only for package daf-trust-graph

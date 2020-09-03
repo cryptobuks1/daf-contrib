@@ -3,6 +3,209 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 6.2.0 (2020-09-03)
+
+
+
+## 6.1.6 (2020-07-20)
+
+
+
+## 6.1.4 (2020-07-08)
+
+
+
+## 6.1.3 (2020-06-11)
+
+
+
+## 6.1.2 (2020-06-10)
+
+
+
+## 6.1.1 (2020-06-10)
+
+
+
+# 6.0.0 (2020-05-29)
+
+
+
+# 5.7.0 (2020-05-29)
+
+
+
+## 5.6.6 (2020-05-26)
+
+
+
+## 5.6.5 (2020-05-25)
+
+
+
+## 5.6.4 (2020-05-22)
+
+
+
+# 5.5.0 (2020-05-13)
+
+
+
+# 5.1.0 (2020-05-06)
+
+
+
+# 5.0.0 (2020-05-05)
+
+
+
+# 4.5.0 (2020-05-05)
+
+
+
+# 4.4.0 (2020-04-29)
+
+
+
+# 4.3.0 (2020-04-28)
+
+
+
+# 4.2.0 (2020-04-24)
+
+
+
+# 4.1.0 (2020-04-23)
+
+
+
+# 4.0.0 (2020-04-22)
+
+
+
+# 4.0.0-beta.48 (2020-04-22)
+
+
+
+# 4.0.0-beta.47 (2020-04-17)
+
+
+
+# 4.0.0-beta.46 (2020-04-17)
+
+
+
+# 4.0.0-beta.45 (2020-04-16)
+
+
+
+# 4.0.0-beta.44 (2020-04-15)
+
+
+
+# 4.0.0-beta.43 (2020-04-15)
+
+
+
+# 4.0.0-beta.42 (2020-04-09)
+
+
+
+## 3.4.2 (2020-03-23)
+
+
+
+# 3.4.0 (2020-03-19)
+
+
+
+# 3.3.0 (2020-03-19)
+
+
+
+# 3.2.0 (2020-03-19)
+
+
+
+## 3.1.3 (2020-03-18)
+
+
+
+## 3.0.2 (2020-03-16)
+
+
+
+## 3.0.1 (2020-03-16)
+
+
+
+# 3.0.0 (2020-03-13)
+
+
+
+# 2.5.0 (2020-03-13)
+
+
+
+## 2.3.19 (2020-03-11)
+
+
+
+## 2.3.18 (2020-03-10)
+
+
+
+## 2.3.16 (2020-03-03)
+
+
+
+## 2.3.15 (2020-03-02)
+
+
+### Bug Fixes
+
+* Typescript types ([05dc7cc](https://github.com/uport-project/daf/commit/05dc7cc4bf49162eaea581f1dc3030aa3898358a))
+
+
+
+## 2.3.10 (2020-02-25)
+
+
+
+## 2.3.7 (2020-02-18)
+
+
+### Bug Fixes
+
+* React native deps ([e03a8b9](https://github.com/uport-project/daf/commit/e03a8b9d55ed54ab63c124792db6f03e2296c4af))
+* React native peerDependencies ([bb7753b](https://github.com/uport-project/daf/commit/bb7753b0bcc7c98648d44d3ba311025d9402cc11))
+
+
+
+## 2.3.3 (2020-02-18)
+
+
+### Bug Fixes
+
+* Await in listDids ([c775d82](https://github.com/uport-project/daf/commit/c775d82d3b7b839b7b5f79038e53c6780f98c0f1))
+
+
+
+## 2.2.1 (2020-02-17)
+
+
+
+# 2.2.0 (2020-02-17)
+
+
+### Features
+
+* Added react-native-async-storage ([8f6a205](https://github.com/uport-project/daf/commit/8f6a2058e7c625c3b1667fbba9a220e79400f4c8))
+
+
+
+
+
 ## [6.1.6](https://github.com/uport-project/daf/compare/v6.1.5...v6.1.6) (2020-07-20)
 
 **Note:** Version bump only for package daf-react-native-async-storage
