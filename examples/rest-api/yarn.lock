@@ -435,8 +435,10 @@ crypto-random-string@^1.0.0:
   resolved "https://registry.yarnpkg.com/crypto-random-string/-/crypto-random-string-1.0.0.tgz#a230f64f568310e1498009940790ec99545bca7e"
   integrity sha1-ojD2T1aDEOFJgAmUB5DsmVRbyn4=
 
-daf-core@../../packages/daf-core, daf-core@^5.5.0:
-  version "5.5.0"
+daf-core@^6.0.0, daf-core@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/daf-core/-/daf-core-6.3.0.tgz#98b5781bc9cea4a7da4542b28dc13db9794dcf69"
+  integrity sha512-CZfpGs27OErWMCGTNA3SCBMDvExnAtrHD591iZenusztXKBdLjO/L7Y5y/akoQGH+drTt0WPN7bzpI6/jcx/1A==
   dependencies:
     blakejs "^1.1.0"
     debug "^4.1.1"
@@ -444,44 +446,54 @@ daf-core@../../packages/daf-core, daf-core@^5.5.0:
     typeorm "^0.2.24"
     uuid "^7.0.2"
 
-daf-did-comm@../../packages/daf-did-comm:
-  version "5.5.0"
+daf-did-comm@^6.0.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/daf-did-comm/-/daf-did-comm-6.3.0.tgz#851c54700c3d6975b8860838b2655efc36198176"
+  integrity sha512-S+ZR/fN26Bz6NtMIVPs0IsawuXbtXfFstqNXWdOndX6O8kJrTkheN4s2GdMBXxKZXSKvDWoHh5PDflsRK/ZkNA==
   dependencies:
     cross-fetch "^3.0.4"
-    daf-core "^5.5.0"
+    daf-core "^6.3.0"
     debug "^4.1.1"
     uuid "^3.3.3"
 
-daf-did-jwt@../../packages/daf-did-jwt, daf-did-jwt@^5.5.0:
-  version "5.5.0"
+daf-did-jwt@^6.0.0, daf-did-jwt@^6.3.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/daf-did-jwt/-/daf-did-jwt-6.3.0.tgz#3db05197dae05d87086bb58bb40f3527f3db778b"
+  integrity sha512-7/ikZ3fCTU29AVR2YskuTtMF10hCerhPd5P/FEDucOiPNFEJMZX2sXEPsnKKeHpaBsJoEQmyXmGyqPiLFx6/Iw==
   dependencies:
-    daf-core "^5.5.0"
+    daf-core "^6.3.0"
     debug "^4.1.1"
     did-jwt "^4.3.2"
     did-resolver "^1.1.0"
 
-daf-ethr-did@../../packages/daf-ethr-did:
-  version "5.5.2"
+daf-ethr-did@^6.0.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/daf-ethr-did/-/daf-ethr-did-6.3.0.tgz#aeb90354cb39122f0b48685cdff63a945502136c"
+  integrity sha512-2vMjmvYa0ZxbgRQzAmaBV4fSgr30QH+ftnnODbdxcqWFC0asxysZJcSvHwJMfrYsjrsqVv99gtrTkB7cXx4e+A==
   dependencies:
-    daf-core "^5.5.0"
+    daf-core "^6.3.0"
     debug "^4.1.1"
     ethjs-provider-signer "^0.1.4"
     ethr-did "^1.1.0"
     js-sha3 "^0.8.0"
 
-daf-libsodium@../../packages/daf-libsodium:
-  version "5.5.0"
+daf-libsodium@^6.0.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/daf-libsodium/-/daf-libsodium-6.3.0.tgz#fab4aada3cdadc29dadab7b283a46d47f7dd63de"
+  integrity sha512-acLWI2mVl/Cf5jk2w2bc/A40/Lm2MxxYan44sazlLSmr/ziRmzLPZs8CFPGygOEJ85va0ivJOFtCr2z7VGaLUg==
   dependencies:
     base-58 "^0.0.1"
-    daf-core "^5.5.0"
+    daf-core "^6.3.0"
     debug "^4.1.1"
     did-jwt "^4.3.2"
     elliptic "^6.5.2"
     ethjs-signer "^0.1.1"
     libsodium-wrappers "^0.7.6"
 
-daf-resolver@../../packages/daf-resolver:
-  version "5.5.2"
+daf-resolver@^6.0.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/daf-resolver/-/daf-resolver-6.3.0.tgz#cbfc347f18c0e528a70aaf93b436cdb1a9626a15"
+  integrity sha512-AotijSqTuanyj1snqeC64pGCy1bIEGz/6EjORhQlB+N/pUfiMFwyTl4qtj1y5NKutZP06Y3xORIacPI5wxJCBQ==
   dependencies:
     debug "^4.1.1"
     did-resolver "^1.1.0"
@@ -489,12 +501,14 @@ daf-resolver@../../packages/daf-resolver:
     nacl-did "^1.0.0"
     web-did-resolver "^1.2.0"
 
-daf-w3c@../../packages/daf-w3c:
-  version "5.5.0"
+daf-w3c@^6.0.0:
+  version "6.3.0"
+  resolved "https://registry.yarnpkg.com/daf-w3c/-/daf-w3c-6.3.0.tgz#2594e160986d161468f74305f3e23daa2b39c8c4"
+  integrity sha512-XmwYNjLpnC3snv2S+VzBcILt+N9wK10jOIE0nzNxyN49xWXw2+CeL9qjrJ2QcyrXLBR4enSdtZ95Dcn/QkT5mg==
   dependencies:
     blakejs "^1.1.0"
-    daf-core "^5.5.0"
-    daf-did-jwt "^5.5.0"
+    daf-core "^6.3.0"
+    daf-did-jwt "^6.3.0"
     debug "^4.1.1"
     did-jwt-vc "0.2.0"
     did-resolver "^1.1.0"
@@ -2290,9 +2304,9 @@ yargonaut@^1.1.2:
     parent-require "^1.0.0"
 
 yargs-parser@^13.1.1:
-  version "13.1.1"
-  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-13.1.1.tgz#d26058532aa06d365fe091f6a1fc06b2f7e5eca0"
-  integrity sha512-oVAVsHz6uFrg3XQheFII8ESO2ssAf9luWuAd6Wexsu4F3OtIW0o8IribPXYrD4WC24LWtPrJlGy87y5udK+dxQ==
+  version "13.1.2"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-13.1.2.tgz#130f09702ebaeef2650d54ce6e3e5706f7a4fb38"
+  integrity sha512-3lbsNRf/j+A4QuSZfDRA7HRSfWrzO0YjqTJd5kjAq37Zep1CEgaYmrH9Q3GwPiB9cHyd1Y1UwggGhJGoxipbzg==
   dependencies:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
