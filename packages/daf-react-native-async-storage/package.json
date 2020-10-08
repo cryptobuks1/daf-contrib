@@ -15,7 +15,7 @@
     "@react-native-community/async-storage": "*"
   },
   "devDependencies": {
-    "@react-native-community/async-storage": "1.12.0",
+    "@react-native-community/async-storage": "1.12.1",
     "@types/debug": "4.1.5",
     "typescript": "4.0.2"
   },
